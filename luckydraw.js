@@ -111,5 +111,3 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault();
         showOverlay();
     });
-
-   window.location.replace(randomPage);
