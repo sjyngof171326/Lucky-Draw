@@ -112,10 +112,4 @@ document.addEventListener('DOMContentLoaded', function() {
         showOverlay();
     });
 
-    window.addEventListener("load", function () {
-
-    history.pushState(null, null, location.href);
-
-    window.addEventListener("popstate", function () {
-        window.location.replace("index.html");
-    });
+   window.location.replace(randomPage);
