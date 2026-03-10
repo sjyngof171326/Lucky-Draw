@@ -111,3 +111,11 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault();
         showOverlay();
     });
+
+    window.addEventListener("load", function () {
+
+    history.pushState(null, null, location.href);
+
+    window.addEventListener("popstate", function () {
+        window.location.replace("index.html");
+    });
