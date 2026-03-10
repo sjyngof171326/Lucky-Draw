@@ -13,3 +13,13 @@ document.addEventListener('DOMContentLoaded', function() {
         imgElement.style.display = 'inline-block'; // 显示图片
     }
 });
+
+window.addEventListener("load", function () {
+
+    history.pushState(null, null, location.href);
+
+    window.addEventListener("popstate", function () {
+        window.location.replace("index.html");
+    });
+
+});
