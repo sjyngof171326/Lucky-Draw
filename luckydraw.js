@@ -111,14 +111,3 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault();
         showOverlay();
     });
-
-    window.addEventListener("popstate", function () {
-    closeOverlay(); 
-});
-
-function closeOverlay(){
-    document.getElementById("overlay").style.display = "none";
-}
-
-    overlayWrapper.style.display = 'none';
-});
