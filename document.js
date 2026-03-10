@@ -10,6 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
     if (imgSrc) {
         const imgElement = document.getElementById('doc-image');
         imgElement.src = decodeURIComponent(imgSrc);
-        imgElement.style.display = 'inline-block'; // 显示图片
+        imgElement.style.display = 'inline-block'; 
     }
 });
