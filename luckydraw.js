@@ -111,3 +111,6 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault();
         showOverlay();
     });
+
+    overlayWrapper.style.display = 'none';
+});
